@@ -1,13 +1,13 @@
 # ec2-ebs-cloudwatch-project
 # AWS Linux + Apache Web Server Deployment 
 
-This project demonstrates a complete end-to-end deployment of a Linux-based Apache web server on AWS using EC2, EBS, CloudWatch, Bash scripting, and automation.
+This project demonstrates a complete end-to-end deployment of a Linux-based Apache web server on AWS using EC2, EBS, CloudWatch, Python scripting, and automation.
 
 It is designed to match real job requirements for roles involving:
 - Linux Administration
 - AWS Infrastructure (EC2, EBS, IAM, CloudWatch)
 - Monitoring & Backups
-- Scripting & Automation
+- Python & Automation
 
 ---
 
@@ -39,7 +39,7 @@ It is designed to match real job requirements for roles involving:
   - Disk usage  
   - Disk I/O metrics  
 
-### **4. Automation with Bash Scripts**
+### **4. Automation with Python Scripts**
 #### Maintenance Script:
 Automatically updates system packages and restarts Apache.
 
@@ -68,8 +68,8 @@ Crontab entries added for automation.
 aws-linux-webserver-project/
 │
 ├── scripts/
-│   ├── maintain-webserver.sh
-│   └── daily-backup.sh
+│   ├── maintain-webserver.py
+│   └── daily-backup.py
 │
 ├── screenshots/
 │   ├── cloudwatch-cpu-alarm.png
@@ -114,7 +114,7 @@ aws-linux-webserver-project/
 - Amazon EBS  
 - Amazon CloudWatch  
 - Amazon SNS  
-- Bash Scripting  
+- Python Scripting  
 - Linux (Amazon Linux 2023)  
 - Apache HTTP Server  
 
@@ -125,7 +125,7 @@ aws-linux-webserver-project/
 - How to attach, format, and mount EBS volumes  
 - How to automate backups using AMIs  
 - Creating CloudWatch alarms and monitoring metrics  
-- Writing Bash scripts for server maintenance  
+- Writing Python scripts for server maintenance  
 - Managing services using systemctl  
 
 ---
